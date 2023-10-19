@@ -74,5 +74,5 @@ API documentation with Swagger is available at `http://localhost:8000/docs`.
 
 ### Probability Manuipulation
 
-Each prize probability can be manuipulated by changing the `mockPrizes` of prize seeder (i.e. [label](seeders/20231018063638-prize.cjs))
+Each prize probability can be manuipulated by changing the `mockPrizes` of [Prize Seeder](seeders/20231018063638-prize.cjs)
 It could be manuipulated by API in next update.

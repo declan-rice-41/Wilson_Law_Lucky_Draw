@@ -23,7 +23,6 @@ class Draw
   public prize_id!: number;
   public isRedeemed!: boolean;
 
-  // Timestamps
   public readonly created_at!: Date;
   public readonly updated_at!: Date;
 }

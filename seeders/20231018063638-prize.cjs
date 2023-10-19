@@ -1,4 +1,7 @@
 async function up(queryInterface) {
+  /**
+   * Caveat: when the totalQuota/dailyQuota is unlimited/not available, it is marked as -1
+   */
   const mockPrizes = [
     {
       id: 1,
