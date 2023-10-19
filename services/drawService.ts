@@ -67,6 +67,6 @@ export function checkIfDrawHasRedeemed(customerId: number, prizeId: number) {
     });
   } catch (error) {
     console.error(error);
-    throw new Error('err: checkIfDrawExists');
+    throw new Error('err: checkIfDrawHasRedeemed');
   }
 }
