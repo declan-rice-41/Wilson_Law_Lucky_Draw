@@ -2,6 +2,13 @@
 
 To get started with the project, follow the instructions below.
 
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+
+Node.js
+MySQL
+
 ### Installation
 
 1. Clone the repository:
@@ -64,3 +71,8 @@ The server will start running on `http://localhost:8000`.
 ### API Documentation
 
 API documentation with Swagger is available at `http://localhost:8000/docs`.
+
+### Probability Manuipulation
+
+Each prize probability can be manuipulated by changing the `mockPrizes` of prize seeder (i.e. [label](seeders/20231018063638-prize.cjs))
+It could be manuipulated by API in next update.

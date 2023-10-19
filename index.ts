@@ -4,7 +4,7 @@ import { redeemController } from './controllers/redeemController';
 import swaggerDocs from './utils/swagger';
 
 const app = express();
-const port = process.env.SERVER_PORT || '3000';
+const port = process.env.SERVER_PORT || '8000';
 
 app.use(express.json());
 

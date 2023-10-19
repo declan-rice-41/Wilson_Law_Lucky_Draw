@@ -1,6 +1,5 @@
 import { DataTypes, Model, Optional } from 'sequelize';
 import sequelize from '../config/database';
-
 interface CustomerAttributes {
   id: number;
   name: string;
@@ -18,7 +17,6 @@ class Customer
   public name!: string;
   public mobile_number!: string;
 
-  // Timestamps
   public readonly created_at!: Date;
   public readonly updated_at!: Date;
 }

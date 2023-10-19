@@ -42,7 +42,7 @@ export async function redeemController(req: Request, res: Response) {
     if (!prize)
       return res.status(400).json({ message: 'You have won no prize.' });
 
-    if (prize.name !== 'Buy 1 Get 1 Free Coupon') {
+    if (prize.totalQuota !== -1) {
       const totalDailyRedeemedDrawCount = await getTotalDailyRedeemedDrawCount(
         latestDraw.prize_id,
       );
