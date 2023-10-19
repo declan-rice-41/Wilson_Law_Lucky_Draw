@@ -1,6 +1,4 @@
-import dotenv from 'dotenv';
-
-dotenv.config();
+require('dotenv').config();
 
 const development = {
   dialect: 'mysql',
@@ -20,7 +18,7 @@ const production = {
   database: process.env.DB_DATABASE,
 };
 
-export default {
+module.exports = {
   development,
   production,
 };
