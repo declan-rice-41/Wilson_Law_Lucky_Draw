@@ -6,8 +6,7 @@ To get started with the project, follow the instructions below.
 
 Make sure you have the following installed on your machine:
 
-Node.js
-MySQL
+Node.js, MySQL
 
 ### Installation
 
